@@ -1,0 +1,67 @@
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start; /* Align sections to the start */
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 10px;
+    padding-right: 117px;
+  }
+  
+  .footer-logo {
+    width: 280px;
+    margin-bottom: 10px;
+  }
+  
+  .company-info p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: left; /* Ensure titles are aligned to the left */
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    text-align: left; /* Ensure the links are aligned to the left */
+  }
+  
+  .footer-links li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .contact-info p {
+    font-size: 14px;
+    margin: 5px 0;
+    text-align: left; /* Align contact details to the left */
+  }
+  
+  .contact-info a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
